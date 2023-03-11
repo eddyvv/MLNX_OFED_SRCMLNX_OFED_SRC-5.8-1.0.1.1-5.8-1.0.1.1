@@ -1,0 +1,126 @@
+OFED-internal-5.8-1.0.1:
+
+clusterkit:
+/sw/release/mlnx_ofed/IBHPC/OFED-internal-5.8-0.2.3/SRPMS/clusterkit-1.8.428-1.58023.src.rpm
+
+dapl:
+/sw/release/mlnx_ofed/IBHPC/OFED-internal-5.6-1.0.3/SRPMS/dapl-2.1.10.1.mlnx-OFED.4.9.0.1.4.56103.src.rpm
+
+dpcp:
+/sw/release/sw_acceleration/dpcp/dpcp-1.1.37-1.src.rpm
+
+dump_pr:
+osm_plugins/dump_pr//dump_pr-1.0-5.13.0.MLNX20221016.gac314ef.tar.gz
+
+hcoll:
+mlnx_ofed_hcol/hcoll-4.8.3220-1.src.rpm
+
+ibdump:
+https://github.com/Mellanox/ibdump master
+commit e153b19b9a8bfc7840b11109cd571db8f090a0d5
+ibsim:
+/sw/release/mlnx_ofed/IBHPC/OFED-internal-5.6-1.0.3/SRPMS/ibsim-0.10-1.56103.src.rpm
+
+ibutils2:
+ibutils2/ibutils2-2.1.1-0.156.MLNX20221016.g4aceb16.tar.gz
+
+iser:
+mlnx_ofed/mlnx-ofa_kernel-4.0.git mlnx_ofed_5_8
+commit 2a601313ce2ed2c2ae683752de1f6104c1d528e6
+isert:
+mlnx_ofed/mlnx-ofa_kernel-4.0.git mlnx_ofed_5_8
+commit 2a601313ce2ed2c2ae683752de1f6104c1d528e6
+kernel-mft:
+mlnx_ofed_mft/kernel-mft-4.22.0-96.src.rpm
+
+knem:
+knem.git mellanox-master
+commit 71fb19cb4951aeb0f75b921d7f652c51a00512d6
+libvma:
+vma/source_rpms//libvma-9.7.0-1.src.rpm
+
+libxlio:
+/sw/release/sw_acceleration/xlio/libxlio-2.0.6-1.src.rpm
+
+mlnx-dpdk:
+https://github.com/Mellanox/dpdk.org mlnx_dpdk_20.11_last_stable
+commit d22629f77d320220d36341d80a53d30e4f453f57
+mlnx-en:
+mlnx_ofed/mlnx-ofa_kernel-4.0.git mlnx_ofed_5_8
+commit 2a601313ce2ed2c2ae683752de1f6104c1d528e6
+
+mlnx-ethtool:
+mlnx_ofed/ethtool.git mlnx_ofed_5_8
+commit 25da5cf00a6de882d7ca1ad361ca39a7d88bf6e9
+mlnx-iproute2:
+mlnx_ofed/iproute2.git mlnx_ofed_5_8
+commit 68c174297d9c59e9a078711f6adb2e59c1db380f
+mlnx-nfsrdma:
+mlnx_ofed/mlnx-ofa_kernel-4.0.git mlnx_ofed_5_8
+commit 2a601313ce2ed2c2ae683752de1f6104c1d528e6
+mlnx-nvme:
+mlnx_ofed/mlnx-ofa_kernel-4.0.git mlnx_ofed_5_8
+commit 2a601313ce2ed2c2ae683752de1f6104c1d528e6
+mlnx-ofa_kernel:
+mlnx_ofed/mlnx-ofa_kernel-4.0.git mlnx_ofed_5_8
+commit 2a601313ce2ed2c2ae683752de1f6104c1d528e6
+
+mlnx-tools:
+https://github.com/Mellanox/mlnx-tools mlnx_ofed
+commit 4bd1724e00735f1d9b4a6be9182f2c1231a184a1
+mlx-steering-dump:
+https://github.com/Mellanox/mlx_steering_dump master
+commit daa3a5741b8e594e476535238c08a84e3753b717
+mpi-selector:
+/sw/release/mlnx_ofed/IBHPC/OFED-internal-5.6-1.0.3/SRPMS/mpi-selector-1.0.3-1.56103.src.rpm
+
+mpitests:
+mlnx_ofed_mpitest/mpitests-3.2.20-de56b6b.src.rpm
+
+mstflint:
+mlnx_ofed_mstflint/mstflint-4.16.1-2.tar.gz
+
+multiperf:
+http://l-gerrit.mtl.labs.mlnx:8080/Performance/multiperf rdma-core-support
+commit e2ca961a51a07fedcc58c656d36a144808bd093b
+ofed-docs:
+docs.git mlnx_ofed-4.0
+commit 3d1b0afb7bc190ae5f362223043f76b2b45971cc
+
+openmpi:
+/sw/release/mlnx_ofed/IBHPC/OFED-internal-5.8-0.2.3/SRPMS/openmpi-4.1.5a1-1.58023.src.rpm
+
+opensm:
+mlnx_ofed_opensm/opensm-5.13.0.MLNX20221016.10d3954.tar.gz
+
+openvswitch:
+https://gitlab-master.nvidia.com/sdn/ovs mlnx_ofed_5_8
+commit 24a81c801598976ecb42008bb3a602da0ba724c2
+perftest:
+mlnx_ofed_perftest/perftest-4.5-0.18.gfcddfe0.tar.gz
+
+rdma-core:
+mlnx_ofed/rdma-core.git mlnx_ofed_5_8
+commit 22a0683b628c5b32fa39cbef42c3591ff397e2c1
+rshim:
+mlnx_ofed_soc/rshim-2.0.6-18.g955dbef.src.rpm
+
+sharp:
+mlnx_ofed_sharp/sharp-3.1.0.MLNX20221025.ec223d82.tar.gz
+
+sockperf:
+sockperf/sockperf-3.10-0.git5ebd327da983.src.rpm
+
+srp:
+mlnx_ofed/mlnx-ofa_kernel-4.0.git mlnx_ofed_5_8
+commit 2a601313ce2ed2c2ae683752de1f6104c1d528e6
+ucx:
+mlnx_ofed_ucx/ucx-1.14.0-1.src.rpm
+
+xpmem:
+xpmem.git mellanox-master
+commit 2f3a57179d02b7d40992dc77395a92f4582f5cd2
+ofed-scripts:
+ofed_scripts.git mlnx_ofed_5_8
+commit c0f8573ccb34ad6a65b5b49131ec5d623d3f9e99
+
